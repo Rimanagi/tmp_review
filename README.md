@@ -1,21 +1,3 @@
-Install
+# hi everyone
 
-```bash
-pip install -e .
-```
-
-Configure env:
-```bash
-export DB_URI=postgresql://postgres:password@localhost
-```
-
-Apply migrations
-```bash
-alembic upgrade head
-```
-
-Run
-
-```bash
-uvicorn --factory app.main:create_app
-```
+i've decided to review [this](https://github.com/Tishka17/fastapi-template) project
